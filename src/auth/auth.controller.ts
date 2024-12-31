@@ -16,7 +16,7 @@ export class AuthController{
              
         }
         @Post("signin")
-        signin(@Body() dto: any) {
+        signin(@Body() dto: AuthDto) {
             console.log({
                 dto,
             })
